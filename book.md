@@ -1,22 +1,27 @@
 # Users
 
-*Create a new user
+*Create a new user*
 
-$useradd <userName> 
+`$useradd <userName>` 
 
 Then create a password for the user as
-$passwd <userName>
+
+`$passwd <userName>`
 
 To add this user to multiple groups
-$useradd -G <group1, group2, group3> <userName>
+
+`$useradd -G <group1, group2, group3> <userName>`
 
 *To see a list of users on the system
-$cat /etc/passwd 
+
+`$cat /etc/passwd` 
 this file has an line entry per user
 
 To see a list of all users that have a home directory:
-$cat /etc/passwd | grep '/home' | cut -d: -f1
+
+`$cat /etc/passwd | grep '/home' | cut -d: -f1`
 
 *To see all the groups on the system
-cut -d: -f1 /etc/group
+
+`cut -d: -f1 /etc/group`
 
