@@ -25,3 +25,11 @@ this file has an line entry per user
 
 `cut -d: -f1 /etc/group`
 
+How to create linux user
+- Create user command
+- Create its home-directory
+- Make it to relevant group/s
+- setup its prompt, profile
+- Create symlinks
+- update permissions
+
